@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "410257769821",
+    "project_id": "poppos-c2636",
+    "storage_bucket": "poppos-c2636.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:410257769821:android:f97c09f8068854280fd4b4",
+        "android_client_info": {
+          "package_name": "com.sysorexworld.poppos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "410257769821-62b074enevglsdmd5igl40s15t5al58c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDqY4unMXIKCjoJgPaWUpOq-5VjinrRhv8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "410257769821-62b074enevglsdmd5igl40s15t5al58c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

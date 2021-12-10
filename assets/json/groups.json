@@ -1,0 +1,74 @@
+[
+    {
+      "id": 1,
+      "group_code": null,
+      "name": "Beverage",
+      "parent_group": null
+    },
+    {
+      "id": 2,
+      "group_code": null,
+      "name": "Add'ONs",
+      "parent_group": null
+    },
+    {
+      "id": 3,
+      "group_code": null,
+      "name": "Appetizer",
+      "parent_group": null
+    },
+    {
+      "id": 4,
+      "group_code": null,
+      "name": "Coffee",
+      "parent_group": 1
+    },
+    {
+      "id": 5,
+      "group_code": null,
+      "name": "Pizza",
+      "parent_group": null
+    },
+    {
+      "id": 6,
+      "group_code": null,
+      "name": "Starters",
+      "parent_group": null
+    },
+    {
+      "id": 8,
+      "group_code": null,
+      "name": "Sauce",
+      "parent_group": 2
+    },
+    {
+      "id": 9,
+      "group_code": null,
+      "name": "shake",
+      "parent_group": 1
+    },
+    {
+      "id": 10,
+      "group_code": null,
+      "name": "Salad",
+      "parent_group": 3
+    },
+    {
+      "id": 11,
+      "group_code": "0011",
+      "name": "Burger",
+      "parent_group": null
+    },
+    {
+      "id": 12,
+      "group_code": "001-012",
+      "name": "Drinks",
+      "parent_group": null
+    },
+    {
+      "id": 13,
+      "group_code": "001-012",
+      "name": "Dessert",
+      "parent_group": null
+    }
+  ]

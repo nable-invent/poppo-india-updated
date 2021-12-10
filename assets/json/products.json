@@ -1,0 +1,164 @@
+[
+    {
+        "id": 2,
+        "item_code": "A-0000000002",
+        "name": "Biryani",
+        "barcode": null,
+        "sales_price": "120.00",
+        "image": "/media/images/products/2020/12/30/1568143107638.jpeg",
+        "category": {
+            "id": 3,
+            "parent_group": null
+        },
+        "vat_percentage": "5.00",
+        "vat_type": [
+            "VAT"
+        ]
+    },
+    {
+        "id": 5,
+        "item_code": "A-0000000005",
+        "name": "Peri Peri Fries",
+        "barcode": null,
+        "sales_price": "90.00",
+        "image": "/media/images/products/2020/12/30/172c4f22-123e-42b5-be46-89c50905626e.JPG",
+        "category": {
+            "id": 6,
+            "parent_group": null
+        },
+        "vat_percentage": "8.00",
+        "vat_type": [
+            "VAT",
+            "SAT"
+        ]
+    },
+    {
+        "id": 12,
+        "item_code": "A-0000000012",
+        "name": "White sauce pasta",
+        "barcode": null,
+        "sales_price": "150.00",
+        "image": "/media/images/products/2020/12/31/penne-pasta-resize-3-500x375_wfOzDFb.jpg",
+        "category": {
+            "id": 3,
+            "parent_group": null
+        },
+        "vat_percentage": "0.00",
+        "vat_type": []
+    },
+    {
+        "id": 14,
+        "item_code": "A-0000000014",
+        "name": "Egg Sandwich",
+        "barcode": null,
+        "sales_price": "100.00",
+        "image": "/media/images/products/2021/01/03/Egg_Sandwich_LK0RghP.jpg",
+        "category": {
+            "id": 3,
+            "parent_group": null
+        },
+        "vat_percentage": "5.00",
+        "vat_type": [
+            "VAT"
+        ]
+    },
+    {
+        "id": 16,
+        "item_code": "A-0000000016",
+        "name": "Milk shake",
+        "barcode": null,
+        "sales_price": "75.00",
+        "image": "/media/images/products/2021/01/09/SITSUSMWR7A2IQ64GMSPSIOOQE.jpg",
+        "category": {
+            "id": 9,
+            "parent_group": 1
+        },
+        "vat_percentage": "0.00",
+        "vat_type": []
+    },
+    {
+        "id": 17,
+        "item_code": "A-0000000017",
+        "name": "Tipsy",
+        "barcode": null,
+        "sales_price": "140.00",
+        "image": "/media/images/products/2021/01/16/13bb2018083114396c402b25c045a47e.jpg",
+        "category": {
+            "id": 9,
+            "parent_group": 1
+        },
+        "vat_percentage": "5.00",
+        "vat_type": [
+            "VAT"
+        ]
+    },
+    {
+        "id": 18,
+        "item_code": "A-0000000018",
+        "name": "Cherry Juice",
+        "barcode": null,
+        "sales_price": "100.00",
+        "image": "/media/images/products/2021/01/16/Shirley-Temple-720x720-recipe-36cac42475724f31835db9daa2c776e9.jpg",
+        "category": {
+            "id": 1,
+            "parent_group": null
+        },
+        "vat_percentage": "0.00",
+        "vat_type": []
+    },
+    {
+        "id": 19,
+        "item_code": "A-0000000019",
+        "name": "Green Salad",
+        "barcode": "123123123",
+        "sales_price": "120.00",
+        "image": "/media/images/products/2021/01/19/1386276604828.jpeg",
+        "category": {
+            "id": 10,
+            "parent_group": 3
+        },
+        "vat_percentage": "5.00",
+        "vat_type": [
+            "VAT"
+        ]
+    },
+    {
+        "id": 20,
+        "item_code": "A-0000000020",
+        "name": "Keto cheese sauce",
+        "barcode": null,
+        "sales_price": "0.00",
+        "image": "/media/images/products/2021/03/19/cauliflower-mac-and-cheese-4-480x480.jpg",
+        "category": {
+            "id": 8,
+            "parent_group": 2
+        },
+        "vat_percentage": "0.00",
+        "vat_type": []
+    },
+    {
+        "id": 23,
+        "item_code": "A-0000000023",
+        "name": "Cumin powder",
+        "barcode": null,
+        "sales_price": "0.00",
+        "image": "/media/images/products/2021/04/08/Jeeragam-Powder.jpg",
+        "category": {
+            "id": 2,
+            "parent_group": null
+        },
+        "vat_percentage": "0.00",
+        "vat_type": []
+    },
+    {
+        "id": 49,
+        "item_code": "A-0000000049",
+        "name": "mayonnaise",
+        "barcode": "789456123",
+        "sales_price": "0.00",
+        "image": "/media/images/products/2021/04/13/Homemade-Mayonnaise-Fifteen-Spatulas-2-640x427.jpg",
+        "category": null,
+        "vat_percentage": "0.00",
+        "vat_type": []
+    }
+]
