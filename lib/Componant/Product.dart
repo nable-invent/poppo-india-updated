@@ -77,7 +77,7 @@ class _ProductCardState extends State<ProductCard> {
                 child: Padding(
                   padding: const EdgeInsets.all(8.0),
                   child: Text(
-                    widget.productPrice + " INR",
+                    widget.productPrice + " AED",
                     style: TextStyle(
                       fontSize: 16,
                       fontWeight: FontWeight.bold,

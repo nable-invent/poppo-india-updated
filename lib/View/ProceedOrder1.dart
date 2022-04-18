@@ -97,7 +97,7 @@ class _ProceedOrderState extends State<ProceedOrder> {
                       color: success,
                       onPressed: () {},
                       child:
-                          Text("Validate & Pay " + total.toString() + " INR"),
+                          Text("Validate & Pay " + total.toString() + " AED"),
                     ),
                   ),
                 ],
@@ -136,7 +136,7 @@ class _ProceedOrderState extends State<ProceedOrder> {
                                     ),
                                   ),
                                   Text(
-                                    total.toString() + " INR",
+                                    total.toString() + " AED",
                                     style:
                                         TextStyle(color: success, fontSize: 64),
                                   ),
@@ -153,8 +153,8 @@ class _ProceedOrderState extends State<ProceedOrder> {
                                         children: [
                                           Text("Subtotal:  " +
                                               subtotal.toString() +
-                                              " INR"),
-                                          Text("Total Tax: 19.2 INR"),
+                                              " AED"),
+                                          Text("Total Tax: 19.2 AED"),
                                         ],
                                       ),
                                       Column(
@@ -163,7 +163,7 @@ class _ProceedOrderState extends State<ProceedOrder> {
                                         children: [
                                           Text(
                                               "Discount: " + discountCtrl.text),
-                                          Text("Change remaining: 0.00 INR"),
+                                          Text("Change remaining: 0.00 AED"),
                                         ],
                                       ),
                                     ],

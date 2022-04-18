@@ -14,6 +14,8 @@ getPosdata() async {
     options: Options(
       headers: {
         "Authorization": "Token " + token,
+        "content-type": "application/json",
+        "accept": "application/json",
       },
     ),
   );

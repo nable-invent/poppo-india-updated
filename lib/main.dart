@@ -128,7 +128,7 @@ class _SplashScreenState extends State<SplashScreen> {
           MaterialPageRoute<void>(
             builder: (BuildContext context) => LoginPage(),
           ),
-          ModalRoute.withName('/login'),
+          ModalRoute.withName('/log '),
         );
       }
     } else {
@@ -301,7 +301,7 @@ class _TabletState extends State<Tablet> {
                   SizedBox(height: 32),
                   Center(
                     child: Text(
-                      "Powered by sysorex",
+                      "Powered by Nable Invent Solutions",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
