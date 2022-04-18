@@ -202,13 +202,13 @@ class InvoicePage extends StatelessWidget {
                                     Text(e.quantity.toString() ?? ""),
                                   ),
                                   DataCell(
-                                    Text(e.subTotal.toString() + " INR"),
+                                    Text(e.subTotal.toString() + " AED"),
                                   ),
                                   DataCell(
-                                    Text(e.vatAmount.toString() + " INR"),
+                                    Text(e.vatAmount.toString() + " AED"),
                                   ),
                                   DataCell(
-                                    Text(e.total.toString() + " INR"),
+                                    Text(e.total.toString() + " AED"),
                                   ),
                                 ],
                               );
@@ -237,7 +237,7 @@ class InvoicePage extends StatelessWidget {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("Subtotal:"),
-                                      Text(data.subtotal.toString() + " INR"),
+                                      Text(data.subtotal.toString() + " AED"),
                                     ],
                                   ),
                                   SizedBox(height: 24),
@@ -246,7 +246,7 @@ class InvoicePage extends StatelessWidget {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("VAT:"),
-                                      Text(data.vat.toString() + " INR"),
+                                      Text(data.vat.toString() + " AED"),
                                     ],
                                   ),
                                   SizedBox(height: 24),
@@ -255,7 +255,7 @@ class InvoicePage extends StatelessWidget {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("Discount:"),
-                                      Text(data.discount.toString() + " INR"),
+                                      Text(data.discount.toString() + " AED"),
                                     ],
                                   ),
                                   Divider(
@@ -266,7 +266,7 @@ class InvoicePage extends StatelessWidget {
                                         MainAxisAlignment.spaceBetween,
                                     children: [
                                       Text("Total:"),
-                                      Text(data.total.toString() + " INR"),
+                                      Text(data.total.toString() + " AED"),
                                     ],
                                   ),
                                 ],

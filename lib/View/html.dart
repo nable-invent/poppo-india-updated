@@ -226,7 +226,7 @@ Future<String> invoiceGenerator(Order data) async {
                     <tr>
                         <th>item</th>
                         <th>qty</th>
-                        <th>total(INR)</th>
+                        <th>total(AED)</th>
                     </tr>
                 </thead>
                 <tbody>''';
@@ -251,21 +251,21 @@ Future<String> invoiceGenerator(Order data) async {
             <div class="summary">
                 <div>
                     <p>Subtotal:</p>
-                    <p>${data.subtotal} INR</p>
+                    <p>${data.subtotal} AED</p>
                 </div>
                 <div>
                     <P>VAT :</P>
-                    <p>${data.vat} INR</p>
+                    <p>${data.vat} AED</p>
                 </div>
                 <div>
                     <p>Discount @ 10%:</p>
-                    <p>${data.discount} INR</p>
+                    <p>${data.discount} AED</p>
                 </div>
             </div>
             <div class="summary">
                 <div>
                     <p>Net total:</p>
-                    <p>${data.total} INR</p>
+                    <p>${data.total} AED</p>
                 </div>
                
                 <div>

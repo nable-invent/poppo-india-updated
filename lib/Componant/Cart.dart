@@ -53,7 +53,7 @@ class _CartPageState extends State<CartPage> {
                                     .getSubTotal(widget.productList)
                                     .toStringAsFixed(2)
                                 : " 0 ") +
-                            "INR",
+                            "AED",
                       ),
                       Text("Total: " +
                           ((widget.productList.length > 0)
@@ -61,7 +61,7 @@ class _CartPageState extends State<CartPage> {
                                   .getTotal(widget.productList)
                                   .toStringAsFixed(2)
                               : " 0 ") +
-                          " INR"),
+                          " AED"),
                     ],
                   ),
                 ),

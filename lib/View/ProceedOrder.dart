@@ -41,7 +41,7 @@ class _ProceedOrderState extends State<ProceedOrder> {
   double discountAmount = 0;
   List<String> disType = [
     "Discount %",
-    "Discount INR",
+    "Discount AED",
   ];
   double cardAmount = 0;
   double cashAmount = 0;
@@ -287,7 +287,7 @@ class _LandscapeState extends State<Landscape> {
   double discountAmount = 0;
   List<String> disType = [
     "Discount %",
-    "Discount INR",
+    "Discount AED",
   ];
   double cardAmount = 0;
   double cashAmount = 0;
@@ -566,7 +566,7 @@ class _LandscapeState extends State<Landscape> {
                         }
                       },
                       child: Text(
-                        "Validate And Pay " + total.toStringAsFixed(2) + " INR",
+                        "Validate And Pay " + total.toStringAsFixed(2) + " AED",
                       ),
                     ),
                   ),
@@ -606,7 +606,7 @@ class _LandscapeState extends State<Landscape> {
                                 ),
                               ),
                               Text(
-                                total.toStringAsFixed(2) + " INR",
+                                total.toStringAsFixed(2) + " AED",
                                 style: TextStyle(
                                   fontSize: 64,
                                   fontWeight: FontWeight.bold,
@@ -626,7 +626,7 @@ class _LandscapeState extends State<Landscape> {
                                         ),
                                       ),
                                       Text(
-                                        subtotal.toString() + " INR",
+                                        subtotal.toString() + " AED",
                                       ),
                                     ],
                                   ),
@@ -640,7 +640,7 @@ class _LandscapeState extends State<Landscape> {
                                       ),
                                       Text(
                                         discount.text +
-                                            ((disValue == 0) ? "%" : "INR"),
+                                            ((disValue == 0) ? "%" : "AED"),
                                       ),
                                     ],
                                   ),
@@ -659,7 +659,7 @@ class _LandscapeState extends State<Landscape> {
                                         ),
                                       ),
                                       Text((taxAmount.toStringAsFixed(2)) +
-                                          " INR"),
+                                          " AED"),
                                     ],
                                   ),
                                   Row(
@@ -670,7 +670,7 @@ class _LandscapeState extends State<Landscape> {
                                           color: dark.withOpacity(0.5),
                                         ),
                                       ),
-                                      Text(change.toString() + " INR"),
+                                      Text(change.toString() + " AED"),
                                     ],
                                   ),
                                 ],
@@ -1337,7 +1337,7 @@ class _PortraitState extends State<Portrait> {
   double discountAmount = 0;
   List<String> disType = [
     "Discount %",
-    "Discount INR",
+    "Discount AED",
   ];
   double cardAmount = 0;
   double cashAmount = 0;
@@ -1615,7 +1615,7 @@ class _PortraitState extends State<Portrait> {
                     }
                   },
                   child: Text(
-                    "Validate And Pay " + total.toStringAsFixed(2) + " INR",
+                    "Validate And Pay " + total.toStringAsFixed(2) + " AED",
                   ),
                 ),
               ),
@@ -1651,7 +1651,7 @@ class _PortraitState extends State<Portrait> {
                               ),
                             ),
                             Text(
-                              total.toStringAsFixed(2) + " INR",
+                              total.toStringAsFixed(2) + " AED",
                               style: TextStyle(
                                 fontSize: 64,
                                 fontWeight: FontWeight.bold,
@@ -1670,7 +1670,7 @@ class _PortraitState extends State<Portrait> {
                                       ),
                                     ),
                                     Text(
-                                      subtotal.toString() + " INR",
+                                      subtotal.toString() + " AED",
                                     ),
                                   ],
                                 ),
@@ -1684,7 +1684,7 @@ class _PortraitState extends State<Portrait> {
                                     ),
                                     Text(
                                       discount.text +
-                                          ((disValue == 0) ? "%" : "INR"),
+                                          ((disValue == 0) ? "%" : "AED"),
                                     ),
                                   ],
                                 ),
@@ -1702,7 +1702,7 @@ class _PortraitState extends State<Portrait> {
                                       ),
                                     ),
                                     Text((taxAmount.toStringAsFixed(2)) +
-                                        " INR"),
+                                        " AED"),
                                   ],
                                 ),
                                 Row(
@@ -1713,7 +1713,7 @@ class _PortraitState extends State<Portrait> {
                                         color: dark.withOpacity(0.5),
                                       ),
                                     ),
-                                    Text(change.toStringAsFixed(2) + " INR"),
+                                    Text(change.toStringAsFixed(2) + " AED"),
                                   ],
                                 ),
                               ],

@@ -4,6 +4,7 @@ import 'package:poppos/Model/OutletModel.dart';
 import 'package:poppos/Networking/OfflineData.dart';
 // import 'package:poppos/Networking/OfflineData.dart';
 import 'package:poppos/Utills/Color.dart';
+import 'package:poppos/View/ApiPage.dart';
 import 'package:poppos/main.dart';
 
 class OutletPage extends StatefulWidget {
@@ -31,6 +32,14 @@ class _OutletPageState extends State<OutletPage> {
         return SafeArea(
           child: Scaffold(
             appBar: AppBar(
+              actions: [
+                TextButton(
+                    onPressed: () =>
+                        Navigator.of(context).pushReplacement(MaterialPageRoute(
+                          builder: (context) => ApiPage(),
+                        )),
+                    child: Text("back"))
+              ],
               title: Text("Outlets"),
               backgroundColor: primary,
             ),

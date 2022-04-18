@@ -94,7 +94,7 @@ class PrintPage extends StatelessWidget {
                           mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
                           children: [
                             pw.Text("Subtotal:"),
-                            pw.Text(data.subtotal.toString() + " INR"),
+                            pw.Text(data.subtotal.toString() + " AED"),
                           ],
                         ),
                         pw.SizedBox(height: 24),
@@ -102,7 +102,7 @@ class PrintPage extends StatelessWidget {
                           mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
                           children: [
                             pw.Text("VAT:"),
-                            pw.Text(data.vat.toString() + " INR"),
+                            pw.Text(data.vat.toString() + " AED"),
                           ],
                         ),
                         pw.SizedBox(height: 24),
@@ -110,7 +110,7 @@ class PrintPage extends StatelessWidget {
                           mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
                           children: [
                             pw.Text("Discount:"),
-                            pw.Text(data.discount.toString() + " INR"),
+                            pw.Text(data.discount.toString() + " AED"),
                           ],
                         ),
                         pw.Divider(
@@ -120,7 +120,7 @@ class PrintPage extends StatelessWidget {
                           mainAxisAlignment: pw.MainAxisAlignment.spaceBetween,
                           children: [
                             pw.Text("Total:"),
-                            pw.Text(data.total.toString() + " INR"),
+                            pw.Text(data.total.toString() + " AED"),
                           ],
                         ),
                       ],
