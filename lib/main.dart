@@ -1,3 +1,4 @@
+import 'dart:io' show Platform;
 import 'package:flutter/material.dart';
 // import 'package:fluttertoast/fluttertoast.dart';
 import 'package:poppos/Model/Auth.dart';
@@ -10,10 +11,18 @@ import './Componant/InputField.dart';
 import './Utills/Color.dart';
 import 'Model/OfflineModel.dart';
 import 'Model/Pinlock.dart';
+import 'package:sqflite_common_ffi/sqflite_ffi.dart';
+import 'package:sqflite/sqflite.dart';
 
-void main() async {
+Future main() async {
   WidgetsFlutterBinding.ensureInitialized();
-
+  if (Platform.isWindows || Platform.isLinux) {
+    // Initialize FFI
+    sqfliteFfiInit();
+  }
+  // Change the default factory. On iOS/Android, if not using `sqlite_flutter_lib` you can forget
+  // this step, it will use the sqlite version available on the system.
+  databaseFactory = databaseFactoryFfi;
   runApp(MyApp());
 }
 
