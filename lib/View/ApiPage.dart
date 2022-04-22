@@ -31,6 +31,8 @@ class _ApiPageState extends State<ApiPage> {
       });
       dynamic response = await dio.post(
         "https://poppos.io/clients/api/url/",
+        // "http://poppos.local:8000/clients/api/url/",
+
         data: form,
       );
       if (response.statusCode == 200) {
@@ -150,7 +152,9 @@ class _TabletCodeState extends State<TabletCode> {
         "key": apiCtrl.text,
       });
       dynamic response = await dio.post(
-        "http://poppos.io/clients/api/url/",
+        "https://poppos.io/clients/api/url/",
+        // "http://poppos.local:8000/clients/api/url/",
+
         data: form,
       );
       if (response.statusCode == 200) {
