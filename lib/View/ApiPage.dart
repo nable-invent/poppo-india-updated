@@ -117,7 +117,7 @@ class _ApiPageState extends State<ApiPage> {
                   SizedBox(height: 32),
                   Center(
                     child: Text(
-                      "Powered by sysorex",
+                      "Powered by Nable Invent Solutions",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,
@@ -236,7 +236,7 @@ class _TabletCodeState extends State<TabletCode> {
                   SizedBox(height: 32),
                   Center(
                     child: Text(
-                      "Powered by sysorex",
+                      "Powered by Nable Invent Solutions",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                         fontWeight: FontWeight.bold,

@@ -32,14 +32,14 @@ class _OutletPageState extends State<OutletPage> {
         return SafeArea(
           child: Scaffold(
             appBar: AppBar(
-              actions: [
-                TextButton(
-                    onPressed: () =>
-                        Navigator.of(context).pushReplacement(MaterialPageRoute(
-                          builder: (context) => ApiPage(),
-                        )),
-                    child: Text("back"))
-              ],
+              // actions: [
+              //   TextButton(
+              //       onPressed: () =>
+              //           Navigator.of(context).pushReplacement(MaterialPageRoute(
+              //             builder: (context) => ApiPage(),
+              //           )),
+              //       child: Text("back"))
+              // ],
               title: Text("Outlets"),
               backgroundColor: primary,
             ),
