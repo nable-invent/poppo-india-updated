@@ -1,5 +1,5 @@
 import "package:flutter/material.dart";
-import 'package:http/http.dart';
+
 // import 'package:poppos/Componant/Buttons.dart';
 import 'package:poppos/Database/DatabaseHelper.dart';
 import 'package:poppos/Model/Auth.dart';
@@ -7,8 +7,9 @@ import 'package:poppos/Model/OfflineModel.dart';
 import 'package:poppos/Networking/Networking.dart';
 import 'package:poppos/Networking/OfflineData.dart';
 import 'package:poppos/Utills/Color.dart';
-import 'package:poppos/View/OrderPage.dart';
+
 import 'package:poppos/View/Pos.dart';
+import 'package:poppos/View/singleOrderPage.dart';
 
 import '../main.dart';
 
@@ -132,7 +133,7 @@ class SuccessPage extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => OrderPage(),
+                      builder: (context) => SingleOrderPage(),
                     ));
               } else {
                 Navigator.pushAndRemoveUntil(

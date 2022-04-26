@@ -25,13 +25,6 @@ class _OrderPageState extends State<OrderPage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
-          leading: IconButton(
-              onPressed: () => Navigator.pushReplacement(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) => POSPage(),
-                  )),
-              icon: Icon(Icons.arrow_back)),
           title: Text("All Orders"),
           backgroundColor: primary,
           actions: [
