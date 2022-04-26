@@ -7,6 +7,7 @@ import 'package:poppos/Model/OrderModel.dart';
 import 'package:poppos/Networking/OfflineData.dart';
 import 'package:poppos/Utills/Color.dart';
 import 'package:poppos/View/InvoicePage.dart';
+import 'package:poppos/View/Pos.dart';
 
 import '../main.dart';
 
@@ -24,6 +25,13 @@ class _OrderPageState extends State<OrderPage> {
     return SafeArea(
       child: Scaffold(
         appBar: AppBar(
+          leading: IconButton(
+              onPressed: () => Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => POSPage(),
+                  )),
+              icon: Icon(Icons.arrow_back)),
           title: Text("All Orders"),
           backgroundColor: primary,
           actions: [

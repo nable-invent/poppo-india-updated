@@ -1,10 +1,13 @@
 import "package:flutter/material.dart";
+import 'package:http/http.dart';
 // import 'package:poppos/Componant/Buttons.dart';
 import 'package:poppos/Database/DatabaseHelper.dart';
 import 'package:poppos/Model/Auth.dart';
 import 'package:poppos/Model/OfflineModel.dart';
+import 'package:poppos/Networking/Networking.dart';
 import 'package:poppos/Networking/OfflineData.dart';
 import 'package:poppos/Utills/Color.dart';
+import 'package:poppos/View/OrderPage.dart';
 import 'package:poppos/View/Pos.dart';
 
 import '../main.dart';
@@ -123,14 +126,23 @@ class SuccessPage extends StatelessWidget {
             color: success,
           ),
           ElevatedButton(
-            onPressed: () {
-              Navigator.pushAndRemoveUntil(
-                context,
-                MaterialPageRoute(
-                  builder: (context) => POSPage(),
-                ),
-                ModalRoute.withName("/pos"),
-              );
+            onPressed: () async {
+              bool check = await checkConnectivity();
+              if (check) {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => OrderPage(),
+                    ));
+              } else {
+                Navigator.pushAndRemoveUntil(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) => POSPage(),
+                  ),
+                  ModalRoute.withName("/pos"),
+                );
+              }
             },
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all(success),
