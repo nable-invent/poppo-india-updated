@@ -252,7 +252,7 @@ class _ProceedOrderState extends State<ProceedOrder> {
               if (orientation == Orientation.portrait) {
                 return Portrait();
               } else if (orientation == Orientation.landscape) {
-                return Portrait();
+                return Landscape();
               } else {
                 return Portrait();
               }
